@@ -1,0 +1,138 @@
+
+
+body {
+  background-color: rgb(156, 156, 156);
+  background: url(.//20425191.jpg);
+  background-size:cover;
+
+}
+
+.section-center {
+  border-radius: 20px;
+  margin:  auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 5px 5px rgb(104, 100, 100);
+  padding: 2rem;
+}
+
+.alert {
+  height: 1.25rem;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  font-size: 16px;
+
+}
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+  text-align: center;
+}
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+  text-align: center;
+  margin: auto;
+ 
+}
+.grocery-form h3 {
+  color: var(--clr-primary-1);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.form-control {
+  display: flex;
+  border-color: transparent;
+ }
+.grocery {
+  padding: 0.25rem;
+  padding-left: 1rem;
+  background:rgb(197, 194, 194);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius:50px;
+  border-color: transparent;
+  font-size: 1rem;
+  flex: 1 0 auto;
+
+}
+
+
+.submit-btn {
+  border:none;
+  flex: 0 0 5rem;
+  align-items: center;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition:0.3s;
+  font-size: 0.85rem;
+  background-color: rgb(124, 124, 230);
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+
+
+}
+.submit-btn:hover {
+  background: rgb(49, 49, 37);
+  color: white;
+}
+
+.grocery-container {
+  margin-top: 2rem;
+  background-color: white;
+}
+
+.grocery-item {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  transition: 0.3s;
+  padding: 0.25rem 1rem;
+  color: #155724;
+ 
+  text-transform: capitalize;
+}
+
+.grocery-item:hover {
+  background-color: rgb(102, 179, 179);
+}
+
+
+.title {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+
+  
+}
+.edit-btn,
+.delete-btn {
+
+  border-color: transparent;
+  background: transparent;
+  cursor: pointer;
+}
+
+.edit-btn {
+  color: blue;
+}
+
+.clear-btn {
+  display: grid;
+  background: transparent;
+  border-color: transparent;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.clear-btn:hover {
+  color:red;
+}
+
+
+
+
